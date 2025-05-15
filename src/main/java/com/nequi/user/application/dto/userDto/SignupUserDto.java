@@ -9,12 +9,14 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Null;
 import jakarta.validation.constraints.Pattern;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class RegisterUserDto {
+@Builder
+public class SignupUserDto {
 
   @NotBlank(message = Constants.MSG_REQUIRED_PHONE)
   @Pattern(regexp = Constants.REGEXP_PHONE, message = Constants.MSG_INVALID_PHONE)

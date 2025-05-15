@@ -1,4 +1,4 @@
-package com.nequi.user.domain.models;
+package com.nequi.user.domain.model;
 
 public class Phone {
   private Integer countryPrefix;

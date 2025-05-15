@@ -1,6 +1,9 @@
 package com.nequi.user.domain.useCase;
 
 import java.time.LocalDate;
+package com.nequi.user.domain.useCase;
+
+import java.time.LocalDate;
 
 import com.nequi.user.domain.api.IUserCasePort;
 import com.nequi.user.domain.exceptions.IllegalAgeException;

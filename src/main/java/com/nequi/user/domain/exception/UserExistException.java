@@ -1,4 +1,4 @@
-package com.nequi.user.domain.exceptions;
+package com.nequi.user.domain.exception;
 
 public class UserExistException extends RuntimeException {
   public UserExistException(String message) {

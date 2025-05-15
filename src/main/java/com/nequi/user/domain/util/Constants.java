@@ -1,4 +1,4 @@
-package com.nequi.user.domain.utils;
+package com.nequi.user.domain.util;
 
 public interface Constants {
   String MSG_ILLEGAL_USER_AGE = "User must be of legal age";

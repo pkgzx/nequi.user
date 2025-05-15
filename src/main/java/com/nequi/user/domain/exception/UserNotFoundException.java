@@ -1,4 +1,4 @@
-package com.nequi.user.domain.exceptions;
+package com.nequi.user.domain.exception;
 
 public class UserNotFoundException extends RuntimeException {
   public UserNotFoundException(String message) {
