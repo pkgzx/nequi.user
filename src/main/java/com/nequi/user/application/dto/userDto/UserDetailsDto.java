@@ -3,7 +3,7 @@ package com.nequi.user.application.dto.userDto;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-import com.nequi.user.domain.models.Role;
+import com.nequi.user.domain.model.Role;
 
 import lombok.Builder;
 import lombok.Getter;

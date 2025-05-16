@@ -1,8 +1,9 @@
 package com.nequi.user.application.dto.userDto;
 
 import java.time.LocalDate;
+import java.util.Optional;
 
-import com.nequi.user.domain.utils.Constants;
+import com.nequi.user.domain.util.Constants;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -46,5 +47,5 @@ public class SignupUserDto {
   private LocalDate birthDate;
 
   @Null
-  private String gender;
+  private Optional<String> gender;
 }

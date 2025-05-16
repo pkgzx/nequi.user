@@ -2,7 +2,7 @@ package com.nequi.user.domain.spi;
 
 import java.util.List;
 
-import com.nequi.user.domain.models.User;
+import com.nequi.user.domain.model.User;
 
 public interface IUserDAO {
   User saveUser(User userData);

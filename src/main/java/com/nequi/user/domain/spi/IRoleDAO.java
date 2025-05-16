@@ -1,6 +1,6 @@
 package com.nequi.user.domain.spi;
 
-import com.nequi.user.domain.models.Role;
+import com.nequi.user.domain.model.Role;
 
 import java.util.List;
 import java.util.Optional;

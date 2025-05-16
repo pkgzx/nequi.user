@@ -1,6 +1,6 @@
 package com.nequi.user.domain.spi;
 
-import com.nequi.user.domain.models.Permission;
+import com.nequi.user.domain.model.Permission;
 
 import java.util.List;
 
